@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/*
+* Author : Geoffroy Baylaender <geoffroy@jannuzzismith.com>  @oeg87
+* Created: 17 Apr 2015
+*/
+html,
+body {
+  margin: 0;
+  padding: 0; }
+
+.example {
+  margin: 0.2em;
+  padding: 0.2em;
+  border-bottom: 5px solid gray;
+  font-family: "Lucida Console", Monaco, monospace; }
+  .example h1 {
+    font-size: 1.6em;
+    margin: 0;
+    padding: 0; }
+  .example ul  {
+    margin: 0;
+    pading: 0; }
+
+/*
+* Title    : BOX
+* Author   : Geoffroy Baylaender <geoffroy@jannuzzismith.com>  @gBaylaender
+* Modified : 17 Feb 2016
+*/
+.box {
+  width: 20%;
+  height: 180px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid red; }
+
+.box__title {
+  margin: 0;
+  padding: 0;
+  color: red;
+  font-family: "Helvetica Neue", Helevetica, Arial, sans-serif;
+  font-weight: 300; }
+
+.box__text {
+  margin: 10px 0; }
+
+.box__link {
+  color: red;
+  text-decoration: none; }
+  .box__link:before {
+    content: "» "; }
+  .box__link:hover {
+    color: #b30000; }
+  .box__link:active {
+    text-decoration: underline; }
+
+/*# sourceMappingURL=main.css.map */

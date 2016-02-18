@@ -1,0 +1,71 @@
+@charset "UTF-8";
+/*
+* Author : Geoffroy Baylaender <geoffroy@jannuzzismith.com>  @oeg87
+* Created: 17 Apr 2015
+*/
+html,
+body {
+  margin: 0;
+  padding: 0; }
+
+.example {
+  margin: 0.2em;
+  padding: 0.2em;
+  border-bottom: 5px solid gray;
+  font-family: "Lucida Console", Monaco, monospace; }
+  .example h1 {
+    font-size: 1.6em;
+    margin: 0;
+    padding: 0; }
+  .example ul  {
+    margin: 0;
+    pading: 0; }
+
+.box, .box__link {
+  border: 1px solid red; }
+
+/*
+* Title    : BOX
+* Author   : Geoffroy Baylaender <geoffroy@jannuzzismith.com>  @gBaylaender
+* Modified : 17 Feb 2016
+*/
+.box {
+  width: 20%;
+  min-height: 200px;
+  margin: 10px;
+  padding: 10px; }
+
+.box__title {
+  margin: 0;
+  padding: 0;
+  color: red;
+  font-family: "Helvetica Neue", Helevetica, Arial, sans-serif;
+  font-weight: 300; }
+
+.box__text {
+  margin: 10px 0; }
+
+.box__link {
+  padding: 5px;
+  color: red;
+  text-decoration: none; }
+  .box__link:before {
+    content: "» "; }
+  .box__link:hover {
+    color: #b30000;
+    border-color: #b30000; }
+  .box__link:active {
+    text-decoration: underline; }
+  .box--radius .box__link {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px; }
+
+.box--radius {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  border-radius: 10px; }
+
+/*# sourceMappingURL=main.css.map */

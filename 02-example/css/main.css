@@ -1,0 +1,162 @@
+@charset "UTF-8";
+/*
+* Author : Geoffroy Baylaender <geoffroy@jannuzzismith.com>  @oeg87
+* Created: 17 Apr 2015
+*/
+html,
+body {
+  margin: 0;
+  padding: 0; }
+
+.example {
+  margin: 0.2em;
+  padding: 0.2em;
+  border-bottom: 5px solid gray;
+  font-family: "Lucida Console", Monaco, monospace; }
+  .example h1 {
+    font-size: 1.6em;
+    margin: 0;
+    padding: 0; }
+  .example ul  {
+    margin: 0;
+    pading: 0; }
+
+.box, .box__link {
+  border: 1px solid red; }
+
+/*
+* Title    : BOX
+* Author   : Geoffroy Baylaender <geoffroy@jannuzzismith.com>  @gBaylaender
+* Modified : 17 Feb 2016
+*/
+.box {
+  float: left;
+  width: 20%;
+  min-height: 200px;
+  margin: 10px;
+  padding: 10px; }
+
+.box__title {
+  margin: 0;
+  padding: 0;
+  color: red;
+  font-family: "Helvetica Neue", Helevetica, Arial, sans-serif;
+  font-weight: 300; }
+
+.box__text {
+  margin: 10px 0; }
+
+.box__link {
+  padding: 5px;
+  color: black;
+  text-decoration: none; }
+  .box__link:before {
+    content: "» "; }
+  .box__link:hover {
+    color: #b30000;
+    border-color: #b30000; }
+  .box__link:active {
+    text-decoration: underline; }
+  .box--radius .box__link {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px; }
+
+.box--radius {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  border-radius: 10px; }
+
+/*
+* Title    : Colors
+* Author   : Geoffroy Baylaender <geoffroy@jannuzzismith.com>  @gBaylaender
+* Modified : 17 Feb 2016
+*/
+.box__1,
+.box__1 .box__link {
+  border-color: red; }
+
+.box__1 .box__link {
+  background-color: red; }
+  .box__1 .box__link:hover {
+    color: #b30000; }
+
+.box__2,
+.box__2 .box__link {
+  border-color: blue; }
+
+.box__2 .box__link {
+  background-color: blue; }
+  .box__2 .box__link:hover {
+    color: #0000b3; }
+
+.box__3,
+.box__3 .box__link {
+  border-color: green; }
+
+.box__3 .box__link {
+  background-color: green; }
+  .box__3 .box__link:hover {
+    color: #003400; }
+
+.box__4,
+.box__4 .box__link {
+  border-color: orange; }
+
+.box__4 .box__link {
+  background-color: orange; }
+  .box__4 .box__link:hover {
+    color: #b37300; }
+
+.box__5,
+.box__5 .box__link {
+  border-color: pink; }
+
+.box__5 .box__link {
+  background-color: pink; }
+  .box__5 .box__link:hover {
+    color: #ff738c; }
+
+.box--nightlife {
+  background-image: url("http://lorempixel.com/400/300/nightlife/2");
+  background-position: top center;
+  background-size: cover; }
+
+.box--nightlife .box__text {
+  background: rgba(255, 255, 255, 0.4); }
+
+.box--city {
+  background-image: url("http://lorempixel.com/400/300/city/2");
+  background-position: top center;
+  background-size: cover; }
+
+.box--city .box__text {
+  background: rgba(255, 255, 255, 0.4); }
+
+.box--people {
+  background-image: url("http://lorempixel.com/400/300/people/2");
+  background-position: top center;
+  background-size: cover; }
+
+.box--people .box__text {
+  background: rgba(255, 255, 255, 0.4); }
+
+.box--cats {
+  background-image: url("http://lorempixel.com/400/300/cats/2");
+  background-position: top center;
+  background-size: cover; }
+
+.box--cats .box__text {
+  background: rgba(255, 255, 255, 0.4); }
+
+.box--nature {
+  background-image: url("http://lorempixel.com/400/300/nature/2");
+  background-position: top center;
+  background-size: cover; }
+
+.box--nature .box__text {
+  background: rgba(255, 255, 255, 0.4); }
+
+/*# sourceMappingURL=main.css.map */
